@@ -2,3 +2,8 @@ This is your new Play application
 =================================
 
 This file will be packaged with your application, when using `activator dist`.
+
+Step1: Install play framework and SBT;
+Step2: Clone to your workspace;
+Step3: Run "activator run";
+Step4: Chrome browser "localhost:9000/services", apply scripts if saw script error.
