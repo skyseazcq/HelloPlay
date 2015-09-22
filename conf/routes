@@ -1,0 +1,16 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           controllers.Application.index()
+GET     /services                   controllers.Services.list()
+GET     /services/new               controllers.Services.addService()
+POST    /services                   controllers.Services.save()
+GET     /services/:code              controllers.Services.info(code: String)
+DELETE  /services/:code              controllers.Services.delete(code: String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+GET     /Napa                       controllers.Application.index2()

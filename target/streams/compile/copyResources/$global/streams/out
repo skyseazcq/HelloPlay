@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/conf/application.conf,/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/conf/evolutions,/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/conf/logback.xml,/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/conf/routes,/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/conf/evolutions/default,/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/target/scala-2.11/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/conf/evolutions/default/1.sql,/Users/chaoqunzhu/Documents/webserver/workspace/firsttry/target/scala-2.11/classes/evolutions/default/1.sql)[0m

@@ -1,0 +1,16 @@
+@(serviceForm : Form[Service])
+@import helper._
+
+@main("Service Information") {
+    <h1>Service Information</h1>
+    @helper.form(action = routes.Services.save()) {
+        <fieldset>
+            <legend>Service (@serviceForm.field("description").valueOr("Adding"))</legend>
+            @helper.inputText(serviceForm.field("code"), '_label -> "Code")
+            @helper.textarea(serviceForm.field("description"), '_label -> "Description")
+            @helper.inputText(serviceForm.field("amount"), '_label -> "Amount")
+        </fieldset>
+        <input type="submit" value="Save"/>
+    }
+    <button onclick="window.location='@routes.Services.list()';" value="cancel">Cancel</button>
+}
